@@ -304,6 +304,17 @@ body.nav-active { overflow: hidden; }
   margin-block-end: auto; 
 }
 
+.navbar-list button { 
+  color: var(--cinnamon-satin);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-700);
+    border: 1px solid var(--cinnamon-satin);
+    max-width: max-content;
+    padding: 10px 28px;
+    border-radius: var(--radius-pill);
+    transition: var(--transition-1);
+    will-change: transform;
+}
 .navbar-link {
   font-weight: var(--fw-700);
   padding-block: 6px;
