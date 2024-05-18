@@ -710,6 +710,7 @@ textarea.input-field {
 
   .navbar-list {
     display: flex;
+    flex-direction: column;
     gap: 21px;
     margin-inline: auto;
   }
