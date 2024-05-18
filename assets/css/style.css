@@ -336,6 +336,7 @@ body.nav-active {
 
 .navbar-list {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -710,7 +711,7 @@ textarea.input-field {
 
   .navbar-list {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 21px;
     margin-inline: auto;
   }
@@ -817,7 +818,9 @@ textarea.input-field {
   .header {
     max-width: 1140px;
   }
-
+  .navbar-list {
+    flex-direction: row;
+  }
   .contact-card {
     gap: 150px;
   }
@@ -851,5 +854,9 @@ textarea.input-field {
   .about-card .card-text {
     width: 500px;
     text-align: center;
+  }
+
+  .navbar-list {
+    flex-direction: row;
   }
 }
